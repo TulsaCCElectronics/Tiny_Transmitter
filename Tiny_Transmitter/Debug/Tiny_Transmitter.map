@@ -1,0 +1,642 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+                              Message_Create.o (__mulsi3)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+                              Message_Create.o (__udivmodsi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+                              Tiny_Transmitter.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+                              ax25.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+                              ax25.o (__eerd_byte_tn4313)
+
+Allocating common symbols
+Common symbol       size              file
+
+busy                0x1               Tiny_Transmitter.o
+Time_Temp           0x7               GPS_Recieve.o
+txtone              0x1               ax25.o
+delay               0x1               Tiny_Transmitter.o
+maindelay           0x1               Tiny_Transmitter.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+ .text          0x00000000        0x0 ax25.o
+ .bss           0x00000000        0x0 ax25.o
+ .text.ax25sendFooter
+                0x00000000       0x1e ax25.o
+ .text.ax25sendASCIIebyte
+                0x00000000       0x72 ax25.o
+ .bss.crchi.1442
+                0x00000000        0x1 ax25.o
+ .bss.count.1460
+                0x00000000        0x1 ax25.o
+ .text          0x00000000        0x0 GPS_Recieve.o
+ .bss           0x00000000        0x0 GPS_Recieve.o
+ .text.SendByte
+                0x00000000       0x48 GPS_Recieve.o
+ .text.SendString
+                0x00000000       0x1c GPS_Recieve.o
+ .text.SIG_UART_RECV
+                0x00000000       0x42 GPS_Recieve.o
+ .text.SIG_UART_TRANS
+                0x00000000       0x4e GPS_Recieve.o
+ .bss.outhead   0x00000000        0x1 GPS_Recieve.o
+ .bss.outbuf    0x00000000       0x60 GPS_Recieve.o
+ .bss.outtail   0x00000000        0x1 GPS_Recieve.o
+ .text          0x00000000        0x0 Message_Create.o
+ .bss           0x00000000        0x0 Message_Create.o
+ .text.MsgSendTelem
+                0x00000000       0xa2 Message_Create.o
+ .bss.sequence.1501
+                0x00000000        0x1 Message_Create.o
+ .bss.temp.1502
+                0x00000000        0x1 Message_Create.o
+ .text          0x00000000        0x0 Tiny_Transmitter.o
+ .bss           0x00000000        0x0 Tiny_Transmitter.o
+ .text.SIG_OVERFLOW0
+                0x00000000       0x4c Tiny_Transmitter.o
+ .bss.sine_index.1482
+                0x00000000        0x1 Tiny_Transmitter.o
+ .rodata.sine.1481
+                0x00000000       0x10 Tiny_Transmitter.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+LOAD ax25.o
+LOAD GPS_Recieve.o
+LOAD Message_Create.o
+LOAD Tiny_Transmitter.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libm.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x806
+ *(.vectors)
+ .vectors       0x00000000       0x2a c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000002a                . = ALIGN (0x2)
+                0x0000002a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000002a        0x0 linker stubs
+ *(.trampolines*)
+                0x0000002a                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000002a                __ctors_start = .
+ *(.ctors)
+                0x0000002a                __ctors_end = .
+                0x0000002a                __dtors_start = .
+ *(.dtors)
+                0x0000002a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000002a        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+                0x0000002a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000002a        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000036       0x16 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+                0x00000036                __do_copy_data
+ .init4         0x0000004c       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+                0x0000004c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000005c        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+ *(.init9)
+ *(.text)
+ .text          0x00000060        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+                0x00000060                __vector_1
+                0x00000060                __vector_12
+                0x00000060                __bad_interrupt
+                0x00000060                __vector_6
+                0x00000060                __vector_3
+                0x00000060                __vector_11
+                0x00000060                __vector_13
+                0x00000060                __vector_17
+                0x00000060                __vector_19
+                0x00000060                __vector_7
+                0x00000060                __vector_5
+                0x00000060                __vector_4
+                0x00000060                __vector_9
+                0x00000060                __vector_2
+                0x00000060                __vector_15
+                0x00000060                __vector_8
+                0x00000060                __vector_14
+                0x00000060                __vector_10
+                0x00000060                __vector_16
+                0x00000060                __vector_18
+                0x00000060                __vector_20
+                0x00000062                . = ALIGN (0x2)
+ *(.text.*)
+ .text.ax25crcBit
+                0x00000062       0x38 ax25.o
+                0x00000062                ax25crcBit
+ .text.ax25sendByte
+                0x0000009a       0xae ax25.o
+                0x0000009a                ax25sendByte
+ .text.ax25sendString
+                0x00000148       0x1c ax25.o
+                0x00000148                ax25sendString
+ .text.ax25sendEEPROMString
+                0x00000164       0x26 ax25.o
+                0x00000164                ax25sendEEPROMString
+ .text.ax25sendHeader
+                0x0000018a       0x2a ax25.o
+                0x0000018a                ax25sendHeader
+ .text.SerInit  0x000001b4       0x10 GPS_Recieve.o
+                0x000001b4                SerInit
+ .text.Serial_Processes
+                0x000001c4       0x2c GPS_Recieve.o
+                0x000001c4                Serial_Processes
+ .text.MsgInit  0x000001f0       0x2a Message_Create.o
+                0x000001f0                MsgInit
+ .text.MsgPrepare
+                0x0000021a      0x310 Message_Create.o
+                0x0000021a                MsgPrepare
+ .text.MsgSendPos
+                0x0000052a       0x7e Message_Create.o
+                0x0000052a                MsgSendPos
+ .text.MsgHandler
+                0x000005a8      0x13c Message_Create.o
+                0x000005a8                MsgHandler
+ .text.mainTransmit
+                0x000006e4       0x1a Tiny_Transmitter.o
+                0x000006e4                mainTransmit
+ .text.mainDelay
+                0x000006fe       0x20 Tiny_Transmitter.o
+                0x000006fe                mainDelay
+ .text.Delay    0x0000071e       0x20 Tiny_Transmitter.o
+                0x0000071e                Delay
+ .text.main     0x0000073e       0x3e Tiny_Transmitter.o
+                0x0000073e                main
+ .text.libgcc.mul
+                0x0000077c       0x32 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+                0x0000077c                __mulsi3
+ .text.libgcc.div
+                0x000007ae       0x44 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+                0x000007ae                __udivmodsi4
+ .text.avr-libc
+                0x000007f2       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+                0x000007f2                __eerd_byte_tn4313
+                0x00000802                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000802        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+                0x00000802                _exit
+                0x00000802                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000802        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000806                _etext = .
+
+.data           0x00800060        0x0 load address 0x00000806
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+ .data          0x00800060        0x0 ax25.o
+ .data          0x00800060        0x0 GPS_Recieve.o
+ .data          0x00800060        0x0 Message_Create.o
+ .data          0x00800060        0x0 Tiny_Transmitter.o
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr25\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800060                . = ALIGN (0x2)
+                0x00800060                _edata = .
+                0x00800060                PROVIDE (__data_end, .)
+
+.bss            0x00800060       0xec
+                0x00800060                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.crc       0x00800060        0x2 ax25.o
+ .bss.loop_delay.1435
+                0x00800062        0x1 ax25.o
+ .bss.bitbyte.1447
+                0x00800063        0x1 ax25.o
+ .bss.loop.1446
+                0x00800064        0x1 ax25.o
+ .bss.bit_zero.1448
+                0x00800065        0x2 ax25.o
+ .bss.sequential_ones.1449
+                0x00800067        0x1 ax25.o
+ .bss.xor_int.1456
+                0x00800068        0x2 ax25.o
+ .bss.temp_char.1476
+                0x0080006a        0x1 ax25.o
+ .bss.intail    0x0080006b        0x1 GPS_Recieve.o
+ .bss.inhead    0x0080006c        0x1 GPS_Recieve.o
+ .bss.inbuf     0x0080006d       0x60 GPS_Recieve.o
+ .bss.Speed_Temp
+                0x008000cd        0x6 Message_Create.o
+ .bss.Course_Temp
+                0x008000d3        0x6 Message_Create.o
+ .bss.Altitude_Temp
+                0x008000d9        0x8 Message_Create.o
+ .bss.index.1460
+                0x008000e1        0x1 Message_Create.o
+ .bss.Time      0x008000e2        0x7 Message_Create.o
+ .bss.Latitude_Temp
+                0x008000e9        0xa Message_Create.o
+ .bss.Latitude  0x008000f3        0xa Message_Create.o
+ .bss.Longitude_Temp
+                0x008000fd        0xb Message_Create.o
+ .bss.Longitude
+                0x00800108        0xb Message_Create.o
+ .bss.Altitude  0x00800113        0x8 Message_Create.o
+ .bss.Speed     0x0080011b        0x6 Message_Create.o
+ .bss.Course    0x00800121        0x6 Message_Create.o
+ .bss.Satellites_Temp
+                0x00800127        0x3 Message_Create.o
+ .bss.Satellites
+                0x0080012a        0x3 Message_Create.o
+ .bss.LongAltitude.1458
+                0x0080012d        0x4 Message_Create.o
+ .bss.LongTemp.1459
+                0x00800131        0x4 Message_Create.o
+ .bss.count.1461
+                0x00800135        0x1 Message_Create.o
+ .bss.Altifeet  0x00800136        0x7 Message_Create.o
+ .bss.commas.1512
+                0x0080013d        0x1 Message_Create.o
+ .bss.sentence_type
+                0x0080013e        0x1 Message_Create.o
+ .bss.index.1513
+                0x0080013f        0x1 Message_Create.o
+ .bss.transmit  0x00800140        0x1 Tiny_Transmitter.o
+ *(COMMON)
+ COMMON         0x00800141        0x1 ax25.o
+                0x00800141                txtone
+ COMMON         0x00800142        0x7 GPS_Recieve.o
+                0x00800142                Time_Temp
+ COMMON         0x00800149        0x3 Tiny_Transmitter.o
+                0x00800149                busy
+                0x0080014a                delay
+                0x0080014b                maindelay
+                0x0080014c                PROVIDE (__bss_end, .)
+                0x00000806                __data_load_start = LOADADDR (.data)
+                0x00000806                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080014c        0x0
+                0x0080014c                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080014c                PROVIDE (__noinit_end, .)
+                0x0080014c                _end = .
+                0x0080014c                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x75c
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+ .stab          0x000006cc       0x90 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny4313.o)
+                                 0x9c (size before relaxing)
+
+.stabstr        0x00000000      0x10c
+ *(.stabstr)
+ .stabstr       0x00000000      0x10c c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr25/crttn4313.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f ax25.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 GPS_Recieve.o
+ .comment       0x00000000       0x30 Message_Create.o
+ .comment       0x00000000       0x30 Tiny_Transmitter.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x118
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 ax25.o
+ .debug_aranges
+                0x00000050       0x48 GPS_Recieve.o
+ .debug_aranges
+                0x00000098       0x40 Message_Create.o
+ .debug_aranges
+                0x000000d8       0x40 Tiny_Transmitter.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xef4
+ *(.debug_info)
+ .debug_info    0x00000000      0x36e ax25.o
+ .debug_info    0x0000036e      0x1ec GPS_Recieve.o
+ .debug_info    0x0000055a      0x66e Message_Create.o
+ .debug_info    0x00000bc8      0x32c Tiny_Transmitter.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x4f5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x151 ax25.o
+ .debug_abbrev  0x00000151      0x119 GPS_Recieve.o
+ .debug_abbrev  0x0000026a      0x164 Message_Create.o
+ .debug_abbrev  0x000003ce      0x127 Tiny_Transmitter.o
+
+.debug_line     0x00000000      0x7bd
+ *(.debug_line)
+ .debug_line    0x00000000      0x24d ax25.o
+ .debug_line    0x0000024d      0x17a GPS_Recieve.o
+ .debug_line    0x000003c7      0x27b Message_Create.o
+ .debug_line    0x00000642      0x17b Tiny_Transmitter.o
+
+.debug_frame    0x00000000      0x2a0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc4 ax25.o
+ .debug_frame   0x000000c4       0xbc GPS_Recieve.o
+ .debug_frame   0x00000180       0xa0 Message_Create.o
+ .debug_frame   0x00000220       0x80 Tiny_Transmitter.o
+
+.debug_str      0x00000000      0x3ff
+ *(.debug_str)
+ .debug_str     0x00000000      0x1b6 ax25.o
+                                0x1ef (size before relaxing)
+ .debug_str     0x000001b6       0xa6 GPS_Recieve.o
+                                0x181 (size before relaxing)
+ .debug_str     0x0000025c      0x114 Message_Create.o
+                                0x263 (size before relaxing)
+ .debug_str     0x00000370       0x8f Tiny_Transmitter.o
+                                0x1f8 (size before relaxing)
+
+.debug_loc      0x00000000      0x51b
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1bb ax25.o
+ .debug_loc     0x000001bb      0x13d GPS_Recieve.o
+ .debug_loc     0x000002f8      0x14f Message_Create.o
+ .debug_loc     0x00000447       0xd4 Tiny_Transmitter.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0xd8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x40 ax25.o
+ .debug_ranges  0x00000040       0x38 GPS_Recieve.o
+ .debug_ranges  0x00000078       0x30 Message_Create.o
+ .debug_ranges  0x000000a8       0x30 Tiny_Transmitter.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Tiny_Transmitter.elf elf32-avr)
+LOAD linker stubs
