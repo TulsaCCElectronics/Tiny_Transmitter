@@ -33,7 +33,7 @@ Copyright:	(c)2005, Gary N. Dion (me@garydion.com). All rights reserved.
 
 // App required include files
 #include "Message_Create.h"
-#include "GPS_Recieve.h"
+#include "GPS_Receive.h"
 
 #define	BUF_SIZE		(96)					// Educated guess for a good buffer size
 

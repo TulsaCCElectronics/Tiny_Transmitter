@@ -40,7 +40,7 @@ Copyright:	(c)2005, Gary N. Dion (me@garydion.com). All rights reserved.
 // App required include files.
 #include "ax25.h"
 #include "Message_Create.h"
-#include "GPS_Recieve.h"
+#include "GPS_Receive.h"
 
 #define	GPRMC		(1)
 #define	GPGGA		(2)

@@ -53,7 +53,7 @@ Copyright:	(c)2005, Gary N. Dion (me@garydion.com). All rights reserved.
 // App required include files
 #include "ax25.h"
 #include "Tiny_Transmitter.h"
-#include "GPS_Recieve.h"
+#include "GPS_Receive.h"
 
 // Defines
 #define BIT_DELAY 189					// Delay for 0.833 ms (189 for 14.7456 MHz)
